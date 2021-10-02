@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="UK">
+	<head>
+        <meta charset="utf-8">
+		<title>JS-LW-1</title> 
+		<link rel="shortcut icon" href = "favicon.ico">
+        <link rel="stylesheet" href="style.css">
+	</head> 
+	<body> 
+        <div class="main">
+		    <form name="form1"> 
+                "Period between two dates" calculator<br>
+				<header>
+					<div>
+						<div>From</div>
+						<input type= "date" name="from" size="10" id = "from" placeholder="date" value = "1945-09-02" required><br>
+					</div>
+					<div>
+						<div>To</div>
+						<input type= "date" name="to" size="10" id = "to" placeholder="date" value = "2003-04-27" required><br>
+					</div>
+				</header>
+				<div class = "buttonBlock">
+					<button type="button" name="delta" onclick="Run();">Run</button>
+				</div>
+		    </form> 
+			<div class = "output" id = "outplace">
+				<div id = "output"></div>
+			</div>
+        </div>
+		<script src="script.js"></script>
+	</body>
+ </html>
